@@ -1,0 +1,8 @@
+.git/
+.gitignore
+__pycache__/
+*.pyc
+.env
+chroma_db/
+memory/chroma_db/
+README.md
