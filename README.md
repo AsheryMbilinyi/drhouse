@@ -4,8 +4,12 @@ A multi-agent clinical communications assistant for a clinic. It
 triages incoming patient messages (email or phone), grounds responses in the
 patient's EMR history, and escalates anything outside its scope to a physician.
 
-This is a prototype: EMR data, patient records, and tool integrations (email,
-appointments, lab results) are simulated.
+This public repository is a sanitized, standalone version of DrHouse, an
+agentic clinical communications system in production use at a clinic. To
+protect patient privacy, this version uses simulated EMR data and mock tool
+integrations in place of the real EHR and clinic systems it connects to in
+production. The architecture, agent logic, and guardrail design shown here
+match the production system.
 
 ## Architecture
 
